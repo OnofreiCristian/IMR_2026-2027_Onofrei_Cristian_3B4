@@ -1,0 +1,1336 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.24f1 (4e7b9b5b6244) revision 5143451'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15613 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cris" at "2026-10-01T12:24:17.0622339Z"
+Process architecture: x64
+Date: 2026-10-01T12:24:17Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4464, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              6a54cd3c9774404dbe60f73f53ba797c
+  Correlation Id:          2ce5e5b299837e21d76ed4b4e57b21c5
+  External correlation Id: 3301592335167177321
+  Machine Id:              Vg0nxvzkrvQRtWxCYeWvpJI29p0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Cris" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cris-notifications" at "2026-10-01T12:24:17.1667024Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55859
+-parentPid
+14732
+-analyticsCloudUserId
+7972619350026
+-analyticsCloudProjectId
+77b1c7ec-7c4b-47ca-9c2e-080d0bb80021
+-analyticsLocalProjectId
+2c3e6cfd7e34a6749acde2959a4420df
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+a442f9a0b96fad8356fbdf1e9ae47d8fd4105f57
+-cbmMachineId
+Vg0nxvzkrvQRtWxCYeWvpJI29p0=
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [21500]  Target information:
+
+Player connection [21500]  * "[IP] 25.11.237.132 [Port] 0 [Flags] 2 [Guid] 645238462 [EditorId] 645238462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21500]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 645238462 [EditorId] 645238462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21500]  * "[IP] 172.30.72.231 [Port] 0 [Flags] 2 [Guid] 645238462 [EditorId] 645238462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 524.34 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 6.69 ms.
+Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.16.1062
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972619350026-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006836 seconds.
+- Loaded All Assemblies, in  0.885 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (506ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (217ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.446 seconds
+Refreshing native plugins compatible for Editor in 7.03 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 6.88 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 2407ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (991ms)
+		LoadAssemblies (790ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (247ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.04 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6878 unused Assets / (7.9 MB). Loaded Objects now: 7627.
+Memory consumption went from 160.2 MB to 152.3 MB.
+Total: 16.198600 ms (FindLiveObjects: 1.316700 ms CreateObjectMapping: 1.164900 ms MarkObjects: 9.061200 ms  DeleteObjects: 4.654400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6514.733673 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+  artifactKey: Guid(8884154dfe85442a3a3578be807dbcdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png using Guid(8884154dfe85442a3a3578be807dbcdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a91bf8b4fc6aabc103760e3073fd71e') in 0.2494842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor/SpriteFrameModuleInspector.uxml
+  artifactKey: Guid(d02b5650e6e0b4c45ab18d5a1d1fce97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor/SpriteFrameModuleInspector.uxml using Guid(d02b5650e6e0b4c45ab18d5a1d1fce97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '620c5f4632fc57bdaf6998f3568e127c') in 0.1453206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146353 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor/SpriteOutlineToolOverlayPanelStyle.uss
+  artifactKey: Guid(453cfcbf89b424ad9a293b19d1e3d4bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor/SpriteOutlineToolOverlayPanelStyle.uss using Guid(453cfcbf89b424ad9a293b19d1e3d4bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b3463d25ed9144e77e95044a0e14bff') in 0.0397832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/UI/TextUtility.cs
+  artifactKey: Guid(e88839abd78a4233a27f8885c9c95714) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/UI/TextUtility.cs using Guid(e88839abd78a4233a27f8885c9c95714) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57d34b3531a83ffae74709eb944ccd71') in 0.0191616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover.png
+  artifactKey: Guid(c130b41d1f572a14793b146add3d6e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover.png using Guid(c130b41d1f572a14793b146add3d6e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fec9761b90b4e9c6cff639dc218b5ad0') in 0.0393843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394138 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '245be673c51b65d275bfca036200c32d') in 0.047833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
+  artifactKey: Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png using Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Curl error 23: Failure writing output to destination, passed 293 returned 0
+ -> (artifact id: 'a85aafd815bc4a17694700b00585c409') in 0.0424413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png
+  artifactKey: Guid(857187d2d610c234587c8a50803e4307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png using Guid(857187d2d610c234587c8a50803e4307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6eebb071800537d7b9ac9f76cdb3539f') in 0.0430991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/TilePalettePrefabUtility.cs
+  artifactKey: Guid(ee02d9ccf56046b698982b9d83315ff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/TilePalettePrefabUtility.cs using Guid(ee02d9ccf56046b698982b9d83315ff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08a8bdaadc9b6b409dc85dd8e53c5147') in 0.0201849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/SpriteSlicePostprocessor.cs
+  artifactKey: Guid(b7aa27c5c7dc45a9a3548f2f160a2798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/SpriteSlicePostprocessor.cs using Guid(b7aa27c5c7dc45a9a3548f2f160a2798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f63892ef8560bd91fc10922b028bed8') in 0.0298455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrushPickStore.cs
+  artifactKey: Guid(2383e22400d14d4ba5996366cac987ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrushPickStore.cs using Guid(2383e22400d14d4ba5996366cac987ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a07ac6a599873035906fe9dc912e77d2') in 0.0240527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@2x.png
+  artifactKey: Guid(f8eef1ebd82d467428620ec2c02bc50a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@2x.png using Guid(f8eef1ebd82d467428620ec2c02bc50a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56981e10cb9df5bebab2fa25038a8894') in 0.0549993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteActiveTargetsPopup.cs
+  artifactKey: Guid(4b4fa89433ae80a4eb9e0230cddc80dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteActiveTargetsPopup.cs using Guid(4b4fa89433ae80a4eb9e0230cddc80dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77782d6ecb149abc5eda6abacf4e5038') in 0.0234304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush.png
+  artifactKey: Guid(12e04f72413abf04fb4a5f79e70822ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush.png using Guid(12e04f72413abf04fb4a5f79e70822ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6127743f2748dd612996a708ab6f25aa') in 0.0675323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cb1293ff5a5ab1f4050ed66089e1179') in 0.1141266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Databases/Emulator/VuforiaEmulator.xml
+  artifactKey: Guid(caf0f3a88341ab549852764c706f63c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Databases/Emulator/VuforiaEmulator.xml using Guid(caf0f3a88341ab549852764c706f63c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f33b39c211f1fe6182b884afd73fe93') in 0.0228934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png
+  artifactKey: Guid(99c3717808acc0f43b394ab3e10da8bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png using Guid(99c3717808acc0f43b394ab3e10da8bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77e37eb527379ae1c5ea30885a790ab5') in 0.0468119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat
+  artifactKey: Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat using Guid(75ef9db8d65dcfb40969937fa2f6ea8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c54c59b28457f7f050dd5238512e7049') in 0.0879392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@4x.png
+  artifactKey: Guid(ce315ea6e6e86a740b10e02dda0d0e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@4x.png using Guid(ce315ea6e6e86a740b10e02dda0d0e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e58a091fd1b9b2afb917c251512a28c') in 0.0537458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png
+  artifactKey: Guid(479801e1f49ea2d4baf2b4c12f674bcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png using Guid(479801e1f49ea2d4baf2b4c12f674bcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fbae3dd17a42cc84674959dcf43a638') in 0.0823106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@2x.png
+  artifactKey: Guid(efae8c209fe26f541b3d560f2034287d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@2x.png using Guid(efae8c209fe26f541b3d560f2034287d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '276fe2ff203acb2400a26337f6fb6073') in 0.0437988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/android/license_3rdpartynotice.txt
+  artifactKey: Guid(f54f3b8594c7844a3a94c3cb3889f567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/android/license_3rdpartynotice.txt using Guid(f54f3b8594c7844a3a94c3cb3889f567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67333a621d271629feea460f79caf3b0') in 0.0249714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Textures/Undecidable_Icon.png
+  artifactKey: Guid(aaa9fe101b705274a8fdce01b72c53a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Textures/Undecidable_Icon.png using Guid(aaa9fe101b705274a8fdce01b72c53a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca0acd749394adc57e29bf3410fc8c4a') in 0.0307966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/Variants/AreaTargetCapture_URP.prefab
+  artifactKey: Guid(aec61285adbfe4601bcd8c09b9ea9314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/Variants/AreaTargetCapture_URP.prefab using Guid(aec61285adbfe4601bcd8c09b9ea9314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13afb03593bc1cb65d8fe41b49fa7cf8') in 0.1249712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 424
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/macos/readme_SDK.txt
+  artifactKey: Guid(a0521db4d68e54c3f90674e84f8acd50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/macos/readme_SDK.txt using Guid(a0521db4d68e54c3f90674e84f8acd50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c01f90458b44aed1c3045856cc78ebc6') in 0.0215111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/PointCloudHeightClip.mat
+  artifactKey: Guid(6a9650f1eec7b49beb8c87003f7fa376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/PointCloudHeightClip.mat using Guid(6a9650f1eec7b49beb8c87003f7fa376) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6791916014b46fa6399fa7e1c9f2918b') in 0.0324635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x162.png
+  artifactKey: Guid(96655ac7a5e9f46d0af3ba32b5ce1d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x162.png using Guid(96655ac7a5e9f46d0af3ba32b5ce1d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d67a94b1fd97143cbf9fe969a077a00') in 0.03252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png
+  artifactKey: Guid(1e5b140256bfa3f4cb79cb0a883bda91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png using Guid(1e5b140256bfa3f4cb79cb0a883bda91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c5bdaa4f589902d0b3c4af6f629628f') in 0.029459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Scripts/Internal
+  artifactKey: Guid(f5cecbfda7a73445eb60d7bcdface705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Scripts/Internal using Guid(f5cecbfda7a73445eb60d7bcdface705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22715ae28858aa8534db920bd7e90931') in 0.0226737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Materials/Astronaut
+  artifactKey: Guid(22bb9cd3cfee74ba6ad4d2220bf48088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/AugmentationAssets/Materials/Astronaut using Guid(22bb9cd3cfee74ba6ad4d2220bf48088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '711f18e3e77c9c689c9bb8d0a5287712') in 0.0207273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/ColoredRectangle.shader
+  artifactKey: Guid(d0a66000dc5bc4726ac5e0758144384b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/ColoredRectangle.shader using Guid(d0a66000dc5bc4726ac5e0758144384b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40e22b8747607a23854f345c4a7477d4') in 0.030063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/windows
+  artifactKey: Guid(c137cf209d5e441d8a3300a819e9aa77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/windows using Guid(c137cf209d5e441d8a3300a819e9aa77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e30007fa831cc851d467a7c9d9714d60') in 0.0262478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Android
+  artifactKey: Guid(90edf1193e7333e44a6698529a117c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Android using Guid(90edf1193e7333e44a6698529a117c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bba41b5bbbbcdf771e2ccee407b90159') in 0.020389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/GroundPlaneReference.mat
+  artifactKey: Guid(b0fca12d4e61246cfa5f9a6d26e48004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/GroundPlaneReference.mat using Guid(b0fca12d4e61246cfa5f9a6d26e48004) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '104a6fbdc592cca6476d928db00e4244') in 0.0299284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/AreaTargetCapture.prefab
+  artifactKey: Guid(98c06fa2b3f3843b98712aa03b5142ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/AreaTargetCapture.prefab using Guid(98c06fa2b3f3843b98712aa03b5142ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '924659c155561499f1431788ed625cf6') in 0.0402624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Editor/Migration
+  artifactKey: Guid(8d45f205a438f684c94bec55e1b6d79b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Migration using Guid(8d45f205a438f684c94bec55e1b6d79b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42dc5f43d4759433a9eabf6b8c2f6a6f') in 0.021888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Engine.XML
+  artifactKey: Guid(7f6fa2435e0f060448326416957e8c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Engine.XML using Guid(7f6fa2435e0f060448326416957e8c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f1e701a4773d4ad5681e5511c817fea') in 0.0193411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@4x.png
+  artifactKey: Guid(9c4b584fdcc16e84391e2a1f5235a9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@4x.png using Guid(9c4b584fdcc16e84391e2a1f5235a9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7169702af09d63ee421116b35ee15cc4') in 0.0471364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
+  artifactKey: Guid(207ee8102dd4143d288186ef0be518ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png using Guid(207ee8102dd4143d288186ef0be518ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ee3d6c9fb2758e7f88418c0c32f2193') in 0.0476482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Common/Icons/iOS/Icon-1024.png
+  artifactKey: Guid(50f07d81dcf4c4fbb8b2c326e7d4b6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-1024.png using Guid(50f07d81dcf4c4fbb8b2c326e7d4b6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16fb52c87d3aa212752a65db4ac6c172') in 0.0370017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-150.png
+  artifactKey: Guid(2ea158708e7a21e4ead741823fd0f8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-150.png using Guid(2ea158708e7a21e4ead741823fd0f8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff07eb99b299288711b71256a37c5372') in 0.049461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.ptc.vuforia.engine/Tests/Editor/VuforiaPackageTests.asmdef
+  artifactKey: Guid(1e62516da8820481ca27afa854980a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Tests/Editor/VuforiaPackageTests.asmdef using Guid(1e62516da8820481ca27afa854980a20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c9b3421779f758dfa69214af47b03b5') in 0.0320806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Common/Icons/Android/Icon-36.png
+  artifactKey: Guid(98e9bf2eec31e492d858fd08e8223ca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/Icon-36.png using Guid(98e9bf2eec31e492d858fd08e8223ca4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '240460ec3101e9532e56b8982c4397e5') in 0.0435215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Common/Icons
+  artifactKey: Guid(6907c1cb917d04a8f9c6ce4fe3c7c3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons using Guid(6907c1cb917d04a8f9c6ce4fe3c7c3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a15cc1d91b9a378343766cafac34d2aa') in 0.0193821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VideoBackground.shader
+  artifactKey: Guid(f40623b353e2f1943b1b3ba42975db7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VideoBackground.shader using Guid(f40623b353e2f1943b1b3ba42975db7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d0fa4570505a3a83ec1c85b3eb37ba7') in 0.0246369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/VuforiaVB_RGB.cginc
+  artifactKey: Guid(eca950a042a35413686c2c1da3762a70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/VuforiaVB_RGB.cginc using Guid(eca950a042a35413686c2c1da3762a70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e50bfc59f41508477cf28b3ac414db9') in 0.0237996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/MeshVisualization.shader
+  artifactKey: Guid(36f8b89416d1f42ffaa88fec1714608a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/MeshVisualization.shader using Guid(36f8b89416d1f42ffaa88fec1714608a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69ec71462bd308097f0dece10fe98d8c') in 0.0236575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/UnlitVertexColorHeightClip.shader
+  artifactKey: Guid(99fdca21c95d84758b1f50ac9a8c1e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/UnlitVertexColorHeightClip.shader using Guid(99fdca21c95d84758b1f50ac9a8c1e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b893862537308ff31565066aa712d816') in 0.0226052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials
+  artifactKey: Guid(3e147ae9765052f4e88605ac5342b4b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials using Guid(3e147ae9765052f4e88605ac5342b4b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02c56cb3e1ffe3902065516682c18225') in 0.0178826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Common/Icons/iOS/Icon-76.png
+  artifactKey: Guid(819aa9af392f0436686712974e387eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-76.png using Guid(819aa9af392f0436686712974e387eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5bdacc2230f557734edc502a0eece8b') in 0.034147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/uwp/license_3rdpartynotice.txt
+  artifactKey: Guid(9d5b1acaf2e8a4844b1c7993ec7ce5d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/uwp/license_3rdpartynotice.txt using Guid(9d5b1acaf2e8a4844b1c7993ec7ce5d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75184709143fd7bb11b1f9723f5b3b48') in 0.0368577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001368 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/PointCloudHeightClip.shader
+  artifactKey: Guid(ca619e594998942a79ecd0bd3b3c52af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/PointCloudHeightClip.shader using Guid(ca619e594998942a79ecd0bd3b3c52af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ed21fce67590c14ae99f1b6d4c4fd21') in 0.0355498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Interface/IGUIUtility.cs
+  artifactKey: Guid(12b2e7dbf9197664c9cd477b41e9e905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/Interface/IGUIUtility.cs using Guid(12b2e7dbf9197664c9cd477b41e9e905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab6209f765ee704d20d63c3a11b0c10a') in 0.0246464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png
+  artifactKey: Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png using Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ace713cd5576ce58d95b7ad4fa9ca7f1') in 0.041335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png
+  artifactKey: Guid(070c631c5a8d05e41baf0a64b742067d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png using Guid(070c631c5a8d05e41baf0a64b742067d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3053ba39198a5e23d313c6668a287947') in 0.0443643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn@2x.png
+  artifactKey: Guid(1fb0e05a5ca5a42ba8ffafe439520b8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/SpriteEditorOn@2x.png using Guid(1fb0e05a5ca5a42ba8ffafe439520b8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4454c0653241d110a6900efb7d5dcde0') in 0.0416787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteContextMenuHandler.cs
+  artifactKey: Guid(e6ccb94c25befa84d8d07a2b0374bc63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteContextMenuHandler.cs using Guid(e6ccb94c25befa84d8d07a2b0374bc63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '284ce3996ab5848b3329f1e7f8f4ff18') in 0.022377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework
+  artifactKey: Guid(d2170503dc57f492481ebe9334c68fcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework using Guid(d2170503dc57f492481ebe9334c68fcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21d4d85ea5aef8398bd2bb1b791bd2cf') in 0.0246066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteActiveTargetsButton.cs
+  artifactKey: Guid(f49d8937111e99645adc3cc3b6c47215) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/UI/TilePaletteActiveTargetsButton.cs using Guid(f49d8937111e99645adc3cc3b6c47215) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99a89fcf3c02d855e0b16aff3839505e') in 0.0349711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.ptc.vuforia.engine/CHANGELOG.md
+  artifactKey: Guid(76719e83f7ad92642871cda54261aeb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/CHANGELOG.md using Guid(76719e83f7ad92642871cda54261aeb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65942e39502bd2520441e0b9f535d577') in 0.0268704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteEditor@2x.png
+  artifactKey: Guid(74d9036aa1bb14ccfafb89d639870288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteEditor@2x.png using Guid(74d9036aa1bb14ccfafb89d639870288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59b115087e2dfb2d372df423c05616ef') in 0.0453513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/UWP/ARM64/VuforiaEngine.dll
+  artifactKey: Guid(b90950afb18b9f54fbf01f6b92166f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/UWP/ARM64/VuforiaEngine.dll using Guid(b90950afb18b9f54fbf01f6b92166f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb3cda6a76cf2b3430d595db280f37e9') in 0.022146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime
+  artifactKey: Guid(e6930a18ef7a7204aa8b6990f1d8021b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime using Guid(e6930a18ef7a7204aa8b6990f1d8021b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '234bf62854ee09da968dace3740d0948') in 0.018585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Scripts/BarcodeOutlineBehaviour.cs
+  artifactKey: Guid(d3be61054796142fe9129793183d1cce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Scripts/BarcodeOutlineBehaviour.cs using Guid(d3be61054796142fe9129793183d1cce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3efef873a18f58413ab3564a4be0fdf2') in 0.0186908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VuforiaVB_YUV420P_YUVYV12.cginc
+  artifactKey: Guid(855135751abe3d04089dd309d8977df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VuforiaVB_YUV420P_YUVYV12.cginc using Guid(855135751abe3d04089dd309d8977df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8bfc0c2781c39b787e21d79770c7452') in 0.0210262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DepthMask_URP.mat
+  artifactKey: Guid(ce277212e4b7349c1898302513229891) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DepthMask_URP.mat using Guid(ce277212e4b7349c1898302513229891) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2517ab570c341231f23cfd751e4c0c7d') in 0.0225062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x216.png
+  artifactKey: Guid(78781f500fd7e4133b37547cebfe0231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x216.png using Guid(78781f500fd7e4133b37547cebfe0231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b27dd575aa88b07241681c9ab132e44f') in 0.0488106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DepthContourMask_URP.mat
+  artifactKey: Guid(71f84a02dcc814185b81b967cc11bd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DepthContourMask_URP.mat using Guid(71f84a02dcc814185b81b967cc11bd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08462668f6aa13ea15e8427bde3179f3') in 0.0255249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/UnlitTextureHeightClip_URP.mat
+  artifactKey: Guid(9751c35c267df4a269c8039a01a19b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/UnlitTextureHeightClip_URP.mat using Guid(9751c35c267df4a269c8039a01a19b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ce95ccaa4d123ef7b7d25c74f53af74') in 0.0586041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SamplesResources/Scenes
+  artifactKey: Guid(159af1fa853dafa4eb813baa3ac38a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/Scenes using Guid(159af1fa853dafa4eb813baa3ac38a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8b2bb0e1ee859149a2258fb19c8a734') in 0.0187792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BrightTexture_URP.mat
+  artifactKey: Guid(f66ab814ac6774d39adf7367c82dd71d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/BrightTexture_URP.mat using Guid(f66ab814ac6774d39adf7367c82dd71d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cafdc6f7586f4ef60519e445a8c8872b') in 0.0509108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/UnlitTexture.mat
+  artifactKey: Guid(b0ac6587ed8004ed6ba6b7c6fd3442e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/UnlitTexture.mat using Guid(b0ac6587ed8004ed6ba6b7c6fd3442e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01075793f9f94a60e289bca30b121d72') in 0.0238479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Common/Icons/iOS/Icon-88.png
+  artifactKey: Guid(c352bbf5f1c324a93a0758d8b4d8d0e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-88.png using Guid(c352bbf5f1c324a93a0758d8b4d8d0e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebaefbf1fa61e761d9208e35183a9fa8') in 0.0291805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Scripts/DefaultAreaTargetEventHandler.cs
+  artifactKey: Guid(af19d4b80f4fc4950b99eb9ea78ab6ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Scripts/DefaultAreaTargetEventHandler.cs using Guid(af19d4b80f4fc4950b99eb9ea78ab6ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bac50027c3867e33a97407dfb163f2a') in 0.0169663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Editor/Vuforia/ForPrint
+  artifactKey: Guid(44f8302d27a65c3418ec2fc90f4a81dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint using Guid(44f8302d27a65c3418ec2fc90f4a81dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6bda7e9489da0c57db356193929d6d8') in 0.0201432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/URP/DepthContourMask_URP.shader
+  artifactKey: Guid(8ffdbc1e89d0b48d7ad9303deb770599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/URP/DepthContourMask_URP.shader using Guid(8ffdbc1e89d0b48d7ad9303deb770599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76f8eb8006b09141c2ffa4ee1a8902d6') in 0.0231885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.ptc.vuforia.engine/package.json
+  artifactKey: Guid(c0e3d889c2a8e4409a9be4e7899d2b51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/package.json using Guid(c0e3d889c2a8e4409a9be4e7899d2b51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd908c5bf6e2387fbaf3a18835b2a2269') in 0.0214067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/VertexLitWithZ.mat
+  artifactKey: Guid(093f0a378e68c4cc79732241b5e43799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/VertexLitWithZ.mat using Guid(093f0a378e68c4cc79732241b5e43799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a9e4fa706fcd1650c2b5dea7a971af6') in 0.0215181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SamplesResources
+  artifactKey: Guid(006cc2190189d9648b89bb0ffd25677f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources using Guid(006cc2190189d9648b89bb0ffd25677f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1777d4d4160b79bc82d72dae027a3c6c') in 0.0146363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures
+  artifactKey: Guid(1af6ea56f2a40644ab84a6aae95d8f29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures using Guid(1af6ea56f2a40644ab84a6aae95d8f29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05f771366e7965c0946b0d409c4701d4') in 0.0168428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/webcamprofiles.xml
+  artifactKey: Guid(20d0205707d8605469c4faf2788d08a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/webcamprofiles.xml using Guid(20d0205707d8605469c4faf2788d08a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ad54353eaea5dc3b3c5ecc304d9687f') in 0.0183136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Sprites/Share.png
+  artifactKey: Guid(8f4fa365158394a799c09ebb2ff7d6b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Sprites/Share.png using Guid(8f4fa365158394a799c09ebb2ff7d6b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26a4591b9dd676e495b6e212d735c6da') in 0.025194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png
+  artifactKey: Guid(66275db5940e89a46b8970064027b905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png using Guid(66275db5940e89a46b8970064027b905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10f3c0a0112a3bec3aab8706478731e1') in 0.0237873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons
+  artifactKey: Guid(fedd79ecaf7194fc29ecdf3f7f72331f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons using Guid(fedd79ecaf7194fc29ecdf3f7f72331f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fa89913490bab27ccb2d52a53fa79d1') in 0.0142354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-400.png
+  artifactKey: Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-400.png using Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e6b71cab7aab604f9cfe56b5cd6cf14') in 0.0403477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Common/Icons/UWP
+  artifactKey: Guid(61e781d199f6efd4cb2d7f936c96e642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP using Guid(61e781d199f6efd4cb2d7f936c96e642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd465dc2da3dff3c5000a5fc63191e5b7') in 0.0160551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/PointSplatNoGeom.mat
+  artifactKey: Guid(b760efff14d10499f9165555c2de91b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/PointSplatNoGeom.mat using Guid(b760efff14d10499f9165555c2de91b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e0400955a484f8bb68a198129e19874') in 0.0193448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.nuget.newtonsoft-json
+  artifactKey: Guid(a5a20a36fab5ed4fc023d92d2ac579fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.nuget.newtonsoft-json using Guid(a5a20a36fab5ed4fc023d92d2ac579fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a760af4a3a75af7cb8664adaea8d5f4') in 0.0154892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Common/Icons/UWP/StoreLogo.scale-400.png
+  artifactKey: Guid(4f570e58f5db8b54aaef3d6295101b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/StoreLogo.scale-400.png using Guid(4f570e58f5db8b54aaef3d6295101b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26a62ddb02e83026315141aa83a150eb') in 0.0226925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins
+  artifactKey: Guid(1067ffa4384ac9843b3c22a0d9a0d52e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins using Guid(1067ffa4384ac9843b3c22a0d9a0d52e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '323f5b3dc4fd6129ae68f959b020875d') in 0.0187751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VertexLitWithZ.shader
+  artifactKey: Guid(c158ceb104c238944a4daf52327953f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VertexLitWithZ.shader using Guid(c158ceb104c238944a4daf52327953f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7376e2f00cafd67f51954d3c3b83f0e6') in 0.018633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Textures/Fail_Icon.png
+  artifactKey: Guid(076323cd810b65f4d893bc9e491357ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Textures/Fail_Icon.png using Guid(076323cd810b65f4d893bc9e491357ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0249694496aaa71efa01a8ba9c639b35') in 0.0221246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-125.png
+  artifactKey: Guid(1f3678bd16e407946824f7f20e6e513d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-125.png using Guid(1f3678bd16e407946824f7f20e6e513d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc719aca3d97adf2a791e97144ecff7c') in 0.0243352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/PointCloudHeightClip.shader
+  artifactKey: Guid(1bb1c9f151e3549a4ab3c2cb8b083e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/PointCloudHeightClip.shader using Guid(1bb1c9f151e3549a4ab3c2cb8b083e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '928f1d527e70b55cbe93f1f60939ae12') in 0.0221597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VuforiaVideoBackground.cginc
+  artifactKey: Guid(b45a2e38fc69fd440b7fa56ebfb18dfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Legacy/VuforiaVideoBackground.cginc using Guid(b45a2e38fc69fd440b7fa56ebfb18dfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0849d8270da772699ff31f408811a775') in 0.0153576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/PointSplatNoGeom.shader
+  artifactKey: Guid(6d1924cd16e52452a9351d3c8505015d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/PointSplatNoGeom.shader using Guid(6d1924cd16e52452a9351d3c8505015d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27ca82b259d27fb3b8cca271c770ce74') in 0.0178359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Common/Icons/Android/Icon-72.png
+  artifactKey: Guid(d85ccead4ae714b0682b281b94267e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/Icon-72.png using Guid(d85ccead4ae714b0682b281b94267e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f74cdc21035e68bafa615e323af0c79') in 0.0239783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233468 seconds.
+  path: Assets/SamplesResources/InstantImageTarget/Astronaut.jpg
+  artifactKey: Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/InstantImageTarget/Astronaut.jpg using Guid(f0d9bcb0daf31468385cd551f205df5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6f40fa21bb07446f3d54679445eb885') in 0.0551856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Common/Icons/iOS/Icon-120.png
+  artifactKey: Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-120.png using Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e98a403f9e60076f6f352523bfcbe4') in 0.0367498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png
+  artifactKey: Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png using Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '753e22e24ce007d23e41ece7097033ad') in 0.04051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.nuget.newtonsoft-json/link.xml
+  artifactKey: Guid(a8a90c35b04530c4f971aaef6fdf3612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.nuget.newtonsoft-json/link.xml using Guid(a8a90c35b04530c4f971aaef6fdf3612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea4c10f98948b17b9a1d3db95b5e0343') in 0.0240051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/DepthContour.mat
+  artifactKey: Guid(6e8673f633b39455f85abe44f8266dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/DepthContour.mat using Guid(6e8673f633b39455f85abe44f8266dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7873ed5a0006aba5764cb097f29fe22b') in 0.0221153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x324.png
+  artifactKey: Guid(2c78137d6929a46249f124bad6c3c8a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x324.png using Guid(2c78137d6929a46249f124bad6c3c8a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03fd7b0522c2cb4c8de553ae9aaea0f5') in 0.0262795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x108.png
+  artifactKey: Guid(aebd9fdb8f30d4d18b318f4312877849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x108.png using Guid(aebd9fdb8f30d4d18b318f4312877849) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33242f98fc0543b9685c3dc6300b6ec7') in 0.0275654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/ios
+  artifactKey: Guid(cba66a8c6202f4fe1b7004ccdbbeb9b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/ios using Guid(cba66a8c6202f4fe1b7004ccdbbeb9b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c14e5687b10416f9b6329da2d3be71a2') in 0.0170152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-100.png
+  artifactKey: Guid(ed30e1100779be246bc70a1a3d6d870e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-100.png using Guid(ed30e1100779be246bc70a1a3d6d870e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df0329e19896a12b6f91f164bed9b15b') in 0.0224607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/Variants
+  artifactKey: Guid(c62f41d0980744829814f6875eec1c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/Variants using Guid(c62f41d0980744829814f6875eec1c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4bc6ab2323307215860aa09fb048743') in 0.0186405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll
+  artifactKey: Guid(8a9a760f95896c34689febc965510927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll using Guid(8a9a760f95896c34689febc965510927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd172b54168e1fb7b652829f574f33a2e') in 0.0715148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller
+  artifactKey: Guid(af60ffd73611c4ea890c503e77061ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller using Guid(af60ffd73611c4ea890c503e77061ebf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b2818cff5ab833f8c14ac499a0f91ab') in 0.0383529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/lumin/readme_SDK.txt
+  artifactKey: Guid(97dd95e4f299249fab9c8db3490f5a58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/lumin/readme_SDK.txt using Guid(97dd95e4f299249fab9c8db3490f5a58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2816bb34eb6d3fde2b5d6478e16c447') in 0.0191407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Common/Icons/iOS/Icon-29.png
+  artifactKey: Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-29.png using Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65beefabb9ae2a647c943f693f21dcc5') in 0.0250105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Common/Icons/iOS/Icon-87.png
+  artifactKey: Guid(dd034f60ad00b407089fd2248eb2bae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-87.png using Guid(dd034f60ad00b407089fd2248eb2bae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4b0db4f9be79d542ddef4f318649895') in 0.0271024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png
+  artifactKey: Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png using Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '969b98d970105de65ede80276211ab39') in 0.0232495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256_altform-unplated.png
+  artifactKey: Guid(27bfa139300791e4aa9cdd8d234ff34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256_altform-unplated.png using Guid(27bfa139300791e4aa9cdd8d234ff34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9142e5989b870a65a2c4313625c16dcb') in 0.0273834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.nuget.newtonsoft-json/CHANGELOG.md
+  artifactKey: Guid(16f24f695cc06684991baf4b1bc6ad22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.nuget.newtonsoft-json/CHANGELOG.md using Guid(16f24f695cc06684991baf4b1bc6ad22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da2f253858d525475c0ee0a8f4b61528') in 0.0170906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Common/Icons/iOS/Icon-40.png
+  artifactKey: Guid(b3252f95d1a3a4cd58871ff4716e5d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/iOS/Icon-40.png using Guid(b3252f95d1a3a4cd58871ff4716e5d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2ab87aa0d7247cc108eb40399559bec') in 0.0254347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/macos
+  artifactKey: Guid(48053d12bf9444ec582e927762e13260) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/macos using Guid(48053d12bf9444ec582e927762e13260) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2ce0e160894632a36a379b56b9f335e') in 0.0201628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png
+  artifactKey: Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png using Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1dac94c708fc49319bdc15140054ce4') in 0.0267929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DefaultValidationIconUndecidable_URP.mat
+  artifactKey: Guid(64eb5745e8abd4a3a9ae848525c44aab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DefaultValidationIconUndecidable_URP.mat using Guid(64eb5745e8abd4a3a9ae848525c44aab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fd33ebcb973927cac5ebe9d5ebb8cb7') in 0.0294539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SamplesResources/Scenes/0-Main.unity
+  artifactKey: Guid(a09cb257d566c489595b16ab37547666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SamplesResources/Scenes/0-Main.unity using Guid(a09cb257d566c489595b16ab37547666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3387677a329c0f8654cb584c8f3d98c7') in 0.019858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Databases/ForPrint/Emulator
+  artifactKey: Guid(c02cbb104a9ec194da68d5a7b51517f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Databases/ForPrint/Emulator using Guid(c02cbb104a9ec194da68d5a7b51517f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe7bf33ef9b214ddf8e583b0a95611dc') in 0.0166368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png
+  artifactKey: Guid(ab4a3d6b552794745ad6d98f0f0c0033) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png using Guid(ab4a3d6b552794745ad6d98f0f0c0033) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8786caf3c7efafeb1f20cef114c316cd') in 0.0229017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DefaultValidationIconPass_URP.mat
+  artifactKey: Guid(7a77c5d6c4be04916b4692c1fb5ceab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/URP/DefaultValidationIconPass_URP.mat using Guid(7a77c5d6c4be04916b4692c1fb5ceab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7837066d81c3a41a30b440c4f47cc07e') in 0.0228285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png
+  artifactKey: Guid(c9b698102d59dfd46a1376fe318163ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png using Guid(c9b698102d59dfd46a1376fe318163ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcc1da72b13cae3e1e0db541448777d3') in 0.0269585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/ios/license_3rdpartynotice.txt
+  artifactKey: Guid(3e161f05f199e4548be92e092d94c9b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Editor/EditorResources/Licenses/ios/license_3rdpartynotice.txt using Guid(3e161f05f199e4548be92e092d94c9b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e57e5a1fe8540f1915290b1d04783010') in 0.0193525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Windows/x64/VuforiaEngine.dll
+  artifactKey: Guid(f735d317ca9afb6468c5c5ca06d9e39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Windows/x64/VuforiaEngine.dll using Guid(f735d317ca9afb6468c5c5ca06d9e39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f51ddcc7efc4d8a184c66f4ae82892bc') in 0.0193437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/URP/CameraDiffuse_URP.shader
+  artifactKey: Guid(3808f20472ee24fa38feee61fa314315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/URP/CameraDiffuse_URP.shader using Guid(3808f20472ee24fa38feee61fa314315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f5f9a21f3619d2558ae038cb7b68df5') in 0.018152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libVuforiaEngine.dylib
+  artifactKey: Guid(e4bfeabebc5114952a57d908ff706b7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libVuforiaEngine.dylib using Guid(e4bfeabebc5114952a57d908ff706b7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '400dd11ba00ce6fed9fec25073cebd31') in 0.020538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/UnlitVertexColorHeightClip.mat
+  artifactKey: Guid(bb1863f82637f4bc48000615ebe92705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Materials/Built-In/UnlitVertexColorHeightClip.mat using Guid(bb1863f82637f4bc48000615ebe92705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfc1836e5ff94fb2ecfdc5bef534a4e9') in 0.0213667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Textures/MidAirReference.png
+  artifactKey: Guid(e21dffdcc7917472c9827aa5e2387fe8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Textures/MidAirReference.png using Guid(e21dffdcc7917472c9827aa5e2387fe8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4bd6cc80bc4953d1053d014eeee0821') in 0.0270277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/IconShader.shader
+  artifactKey: Guid(7a2c477fe154a449bb1759dc7b276013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Shaders/Built-In/IconShader.shader using Guid(7a2c477fe154a449bb1759dc7b276013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b28511f7c4459a7cc9c664711c9ab49') in 0.015345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.691212 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/LockedOptions@2x.png
+  artifactKey: Guid(da5aa6ed6c9fc4b049dffa3da57eaf7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/LockedOptions@2x.png using Guid(da5aa6ed6c9fc4b049dffa3da57eaf7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b4d141ac6cad752f490e10ccce9033a') in 0.0389884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteFrameToggle@32.png
+  artifactKey: Guid(b2bd41a7c30fc4ad796e452d755dbfb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.sprite/Editor/Assets/d_SpriteFrameToggle@32.png using Guid(b2bd41a7c30fc4ad796e452d755dbfb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65869023619aaa7e506b2f9ede6b81db') in 0.0443257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@4x.png
+  artifactKey: Guid(77be2b195bdd3a849b554d6dd09badb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@4x.png using Guid(77be2b195bdd3a849b554d6dd09badb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '783e4bb5dae3f20dd4f66e8344ff917c') in 0.0457079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

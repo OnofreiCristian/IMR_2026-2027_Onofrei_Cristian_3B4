@@ -1,0 +1,32 @@
+# Unity temporary and generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Package tarballs if you don't want to track embedded packages
+*.tgz
+
+# Asset store packages
+Assets/AssetStoreTools*
+
+# Visual Studio / VS Code temp files
+.vs/
+.idea/
+*.csproj
+*.sln
+
+# Unity cache folders across all subdirectories
+**/Library/
+**/Temp/
+**/Obj/
+**/Build/
+**/Builds/
+**/Logs/
+**/UserSettings/
+
+*.tgz

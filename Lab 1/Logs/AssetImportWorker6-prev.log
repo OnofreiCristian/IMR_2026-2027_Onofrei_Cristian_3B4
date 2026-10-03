@@ -1,0 +1,552 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.24f1 (4e7b9b5b6244) revision 5143451'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15613 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cris" at "2026-10-01T12:54:37.5546022Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-01T12:54:37Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4464, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4db832b1dc6e41abbdee9a18ee1273b8
+  Correlation Id:          2ce5e5b299837e21d76ed4b4e57b21c5
+  External correlation Id: 8320652621956877411
+  Machine Id:              Vg0nxvzkrvQRtWxCYeWvpJI29p0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Cris" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cris-notifications" at "2026-10-01T12:54:37.662107Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+55859
+-parentPid
+14732
+-analyticsCloudUserId
+7972619350026
+-analyticsCloudProjectId
+77b1c7ec-7c4b-47ca-9c2e-080d0bb80021
+-analyticsLocalProjectId
+2c3e6cfd7e34a6749acde2959a4420df
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+a442f9a0b96fad8356fbdf1e9ae47d8fd4105f57
+-cbmMachineId
+Vg0nxvzkrvQRtWxCYeWvpJI29p0=
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [12148]  Target information:
+
+Player connection [12148]  * "[IP] 25.11.237.132 [Port] 0 [Flags] 2 [Guid] 398055092 [EditorId] 398055092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12148]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 398055092 [EditorId] 398055092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12148]  * "[IP] 172.30.72.231 [Port] 0 [Flags] 2 [Guid] 398055092 [EditorId] 398055092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1VT9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12148] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 559.96 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 6.17 ms.
+Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cris/Desktop/Facultate/An3/Sem1/IMR/IMR Lab 1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.16.1062
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972619350026-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.410853 seconds.
+- Loaded All Assemblies, in 15.804 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 16433ms
+	BeginReloadAssembly (12464ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (811ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (517ms)
+	LoadAllAssembliesAndSetupDomain (1974ms)
+		LoadAssemblies (12471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1954ms)
+			TypeCache.Refresh (1951ms)
+				TypeCache.ScanAssembly (1453ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 13.618 seconds
+Refreshing native plugins compatible for Editor in 9.22 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 9.89 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.661 seconds
+Domain Reload Profiling: 15264ms
+	BeginReloadAssembly (286ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (13174ms)
+		LoadAssemblies (12011ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1336ms)
+			TypeCache.Refresh (1152ms)
+				TypeCache.ScanAssembly (1119ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (334ms)
+			ProcessInitializeOnLoadAttributes (844ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 9.38 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6878 unused Assets / (8.0 MB). Loaded Objects now: 7627.
+Memory consumption went from 158.4 MB to 150.4 MB.
+Total: 20.290500 ms (FindLiveObjects: 1.367900 ms CreateObjectMapping: 2.409800 ms MarkObjects: 10.554600 ms  DeleteObjects: 5.956200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8450.153620 seconds.
+  path: Assets/Character_Cactus
+  artifactKey: Guid(c0a4ba96d80b92046b9eb3d0d593ddf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus using Guid(c0a4ba96d80b92046b9eb3d0d593ddf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e65b8e6c1b37d9e53d7501936d76942') in 0.0944705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character_Cactus/animation/Cactus@Attack.FBX
+  artifactKey: Guid(ee1f739f60e7e644585da179e9ec98fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/animation/Cactus@Attack.FBX using Guid(ee1f739f60e7e644585da179e9ec98fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a30f719e89236e46d186df66a8e9d73') in 0.2065577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character_Cactus/animation/Materials
+  artifactKey: Guid(5edb8ac99a0012b4498fcb5bbee52df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/animation/Materials using Guid(5edb8ac99a0012b4498fcb5bbee52df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a97689265502b8a5ed1500f4facb4d9d') in 0.0199887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character_Cactus/Texture/Сactus_normals.tga
+  artifactKey: Guid(ba30b210f9f9c8d48b3344a1a0c2d31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/Texture/Сactus_normals.tga using Guid(ba30b210f9f9c8d48b3344a1a0c2d31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '4805f0845d82d76a4cbf62b896e0571d') in 0.0712258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character_Cactus/animation/Materials/Сactus_diffuse.mat
+  artifactKey: Guid(074a750282a94e34bb5f5542e06afec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/animation/Materials/Сactus_diffuse.mat using Guid(074a750282a94e34bb5f5542e06afec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '849ce1aca36cd004b738af7aca845694') in 0.0514194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character_Cactus/Cactus_demo.controller
+  artifactKey: Guid(97bace790e4491d428a4a9f276f0d850) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/Cactus_demo.controller using Guid(97bace790e4491d428a4a9f276f0d850) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1683d20e7406a6b076d84c303fe7b17') in 0.0365748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Character_Cactus/Mesh
+  artifactKey: Guid(abfd3d0c8f52217498f122c228e603a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/Mesh using Guid(abfd3d0c8f52217498f122c228e603a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d7dad34ea201222a10b903ad80a1abc') in 0.0176474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Character_Cactus/animation/Cactus@Walk.FBX
+  artifactKey: Guid(79e4ecc74e88a724b9244664c5527a39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/animation/Cactus@Walk.FBX using Guid(79e4ecc74e88a724b9244664c5527a39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dae3486cb23488bc7296ac8ffc52905') in 0.037814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Character_Cactus/animation/Cactus@Idle.FBX
+  artifactKey: Guid(24bdb3826782777408de0e137402e9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character_Cactus/animation/Cactus@Idle.FBX using Guid(24bdb3826782777408de0e137402e9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '946b4aabac9aabfc69ae47c130c2bfd1') in 0.0347179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.337739 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Damage01.fbx
+  artifactKey: Guid(77edd185276d64a4791549ac2266642e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Damage01.fbx using Guid(77edd185276d64a4791549ac2266642e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d8303fabf5247f977f677ecf6c80165') in 0.0260279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Death01_A.fbx
+  artifactKey: Guid(dab15ef5f6c781b40894c52c4c9938d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Death01_A.fbx using Guid(dab15ef5f6c781b40894c52c4c9938d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0af56ce430373b58488c53acf3abf76') in 0.0430783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Attack01.fbx
+  artifactKey: Guid(df45eaf8e6125d74d88e4d605fdf7a40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Attack01.fbx using Guid(df45eaf8e6125d74d88e4d605fdf7a40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcaa78abdcfcab486a8424acb5f51b0d') in 0.0297485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Materials/ZombieFloorTexture.tga
+  artifactKey: Guid(7f61f52d10251404e92e056ca76195e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Materials/ZombieFloorTexture.tga using Guid(7f61f52d10251404e92e056ca76195e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f149419524327cc4cebdfaa0a1c8fe3') in 0.0290983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Model
+  artifactKey: Guid(8cb293e1d8bcf2b408d17d9877a36907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Model using Guid(8cb293e1d8bcf2b408d17d9877a36907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df7bb1b2824fa0b62ce6b12a6c91b2df') in 0.0168469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Idles.controller
+  artifactKey: Guid(e5c689bb25e3a5b4dbeb4677f4810750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Idles.controller using Guid(e5c689bb25e3a5b4dbeb4677f4810750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96a59aefb8f3965ff3b177eca3371419') in 0.019011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers
+  artifactKey: Guid(fb1cb3c394c25264f977bf244205bf87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers using Guid(fb1cb3c394c25264f977bf244205bf87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d6a8fa80d5d1f7ef36f2f0bf605c9f8') in 0.0185118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Prefabs
+  artifactKey: Guid(bd2c485df729ed146b781ce3456b170f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Prefabs using Guid(bd2c485df729ed146b781ce3456b170f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '305363d0dc1ba4d3122a25ff260acf2f') in 0.018532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Death.controller
+  artifactKey: Guid(6882b6fda1ca307409d32a3839b91e64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Death.controller using Guid(6882b6fda1ca307409d32a3839b91e64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afee30fc7c446096c2589b3fa7a0ab97') in 0.020797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Idle01.fbx
+  artifactKey: Guid(d47b04075336bf94fb3053d613517fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Animations/Zombie@Idle01.fbx using Guid(d47b04075336bf94fb3053d613517fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd53756f9af11f6101979dced4de7af30') in 0.0287434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Materials/ZombieTexture.tga
+  artifactKey: Guid(daa68963c6dee2d46b3a0ad72d689a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Materials/ZombieTexture.tga using Guid(daa68963c6dee2d46b3a0ad72d689a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '082a7c980b8366f62e20cb26a2f35324') in 0.0224373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kevin Iglesias/Zombie Animations/Animations
+  artifactKey: Guid(fe5a7f0fd33479147bf872dee59c77a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Kevin Iglesias/Zombie Animations/Animations using Guid(fe5a7f0fd33479147bf872dee59c77a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '240577b029cfa559ab26d341d157e381') in 0.0188945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.860212 seconds.
+  path: Assets/Models/Character_Cactus/Materials
+  artifactKey: Guid(c6c2ef2f3095a1b47af45de8e0e27a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/Materials using Guid(c6c2ef2f3095a1b47af45de8e0e27a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f46fdb22b8df7eabc84885a34842c25') in 0.021486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Character_Cactus/animation/Cactus@Attack.FBX
+  artifactKey: Guid(ee1f739f60e7e644585da179e9ec98fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/animation/Cactus@Attack.FBX using Guid(ee1f739f60e7e644585da179e9ec98fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba2fea975ceb05028b6edd7d76dc7242') in 0.0325484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Character_Cactus/Texture/Сactus_diffusePSD.psd
+  artifactKey: Guid(cab7e213827cd1e42b1611942839aaf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/Texture/Сactus_diffusePSD.psd using Guid(cab7e213827cd1e42b1611942839aaf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b171a6dc9276a970a9c552276a2f918') in 0.027208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Character_Cactus/Texture/Сactus_normals.tga
+  artifactKey: Guid(ba30b210f9f9c8d48b3344a1a0c2d31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/Texture/Сactus_normals.tga using Guid(ba30b210f9f9c8d48b3344a1a0c2d31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d3799c880dc6d67074c152b7d0a2d26') in 0.0245919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Character_Cactus/Prefab
+  artifactKey: Guid(de9d7d20f5f22ce47a6a134e933272c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/Prefab using Guid(de9d7d20f5f22ce47a6a134e933272c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26719623fd67389487bb80e5203a442e') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Character_Cactus/animation/Materials/Сactus_diffuse.mat
+  artifactKey: Guid(074a750282a94e34bb5f5542e06afec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/animation/Materials/Сactus_diffuse.mat using Guid(074a750282a94e34bb5f5542e06afec5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9b9a5eeb03e3767982bd6d142758a4e') in 0.023759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Character_Cactus/animation/Cactus@Dead.FBX
+  artifactKey: Guid(cc21b08496939574f8aca4d10dd17bcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/animation/Cactus@Dead.FBX using Guid(cc21b08496939574f8aca4d10dd17bcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c236f6f60414a485919d536dedcca2f') in 0.0313715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Character_Cactus/animation/Cactus@Walk_Mec.FBX
+  artifactKey: Guid(12970290330048940a51d6c4056702ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/animation/Cactus@Walk_Mec.FBX using Guid(12970290330048940a51d6c4056702ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f6330bde0b7b1efb7088cd64b60b9e4') in 0.0398189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Character_Cactus/animation/Cactus@Idle.FBX
+  artifactKey: Guid(24bdb3826782777408de0e137402e9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Character_Cactus/animation/Cactus@Idle.FBX using Guid(24bdb3826782777408de0e137402e9b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61310ef5d94e6919b53aa5ae44a7a42d') in 0.028411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.024418 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations
+  artifactKey: Guid(00b7681ee7b0db744b26b896a377f9dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations using Guid(00b7681ee7b0db744b26b896a377f9dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bef4bea1437ec8d56afec44b8f1e79aa') in 0.0328348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations/Animations/Zombie@Death01_A.fbx
+  artifactKey: Guid(dab15ef5f6c781b40894c52c4c9938d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations/Animations/Zombie@Death01_A.fbx using Guid(dab15ef5f6c781b40894c52c4c9938d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf320af411217e781dad80fd314ec96f') in 0.0323843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations/Model/ZombieModel.fbx
+  artifactKey: Guid(0112b3ddf6b69f148b600356eb9c21a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations/Model/ZombieModel.fbx using Guid(0112b3ddf6b69f148b600356eb9c21a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9821719903c03114786ab0b487e3fddb') in 0.0358637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Attacks.controller
+  artifactKey: Guid(350c80f7b05ea874d8369b922616cf41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Attacks.controller using Guid(350c80f7b05ea874d8369b922616cf41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56caf79d15f48a2da1ce3603c39805d8') in 0.0192039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations/Animations/Zombie@Idle01.fbx
+  artifactKey: Guid(d47b04075336bf94fb3053d613517fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations/Animations/Zombie@Idle01.fbx using Guid(d47b04075336bf94fb3053d613517fc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db2f5e475d166f21cf66cf95475cbf95') in 0.0309545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Damages.controller
+  artifactKey: Guid(2a72f32275c21e546843cd191be2679f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Kevin Iglesias/Zombie Animations/AnimatorControllers/Zombie@Damages.controller using Guid(2a72f32275c21e546843cd191be2679f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '092608ce6bd816fd8f04481c5dd2402f') in 0.0240597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
